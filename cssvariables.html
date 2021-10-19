@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS - important</title>
+  </head>
+  <style>
+   :root{
+       --blue:#0004ff;
+       --green:rgb(9, 238, 47);
+       --red:rgb(228, 13, 13);
+   }
+   .para1{
+       background-color: var(--blue);
+   }
+   p{
+       background-color: var(--green);
+   }
+   h1{
+       background-color: var(--red);
+   }
+  </style>
+  <link rel="stylesheet" href="../CSS/important.css">
+  <body>
+   
+    <p class="para1">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis,
+      ut.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, impedit.</p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+  </body>
+</html>

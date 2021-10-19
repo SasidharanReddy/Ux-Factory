@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML- forms</title>
+  </head>
+  <body>
+    <form>
+      <label for="firstname">Firstname</label><br />
+      <input type="text" name="firstname" id="firstname" /><br />
+      <label for="lastname">lastname</label><br />
+      <input type="text" name="lastname" id="lastname" /><br />
+      <label for="username">username</label><br />
+      <input type="text" name="username" id="username" /><br />
+      <label for="password">password</label><br />
+      <input type="password" name="password" id="password" /> <br />
+      <label for="confirm">confirm</label><br />
+      <input type="password" name="confirm" id="confirm" /><br /><br />
+      <input type="button" value="submit" />
+      <input type="reset" value="reset" /><br /><br />
+      <label for="cars">choose car</label>
+      <select name="cars" id="cars">
+        <option value="volvo">volvo</option>
+        <option value="kia">kia</option>
+        <option value="audi">audi</option>
+      </select>
+      <input type="submit" /><br />
+      <p>select your fav browser</p>
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+      <input type="submit" /><br />
+      <p>Choose your favorite Web language:</p>
+      <input type="radio" id="html" name="favlanguage" value="html" />
+      <label for="html">html</label><br />
+      <input type="radio" id="css" name="favlanguage" value="css" />
+      <label for="css">css</label><br />
+      <input
+        type="radio"
+        name="javascript"
+        id="javascript"
+        value="javascript"
+      />
+      <label for="javascript">javascript</label><br /><br />
+      <label for="comments">comments</label><br />
+      <textarea name="comments" id="comments" cols="30" rows="10"></textarea
+      ><br /><br />
+      <p>select your fav car</p>
+      <input type="checkbox" name="car1" id="car1" />
+      <label for="car1">kia</label>
+      <input type="checkbox" name="car2" id="car2" />
+      <label for="car2">volvo</label
+      ><input type="checkbox" name="car3" id="car3" />
+      <label for="car3">audi</label><br><br>
+      <input type="submit"><br><br>
+      <input type="date" name="date" id="date"><br><br>
+      <label for="color">select your fav color</label><br><br>
+      <input type="color" name="color" id="color"><br><br>
+      <label for="myfile">choose file</label><br>
+      <input type="file" name="myfile" id="myfile"><br>
+      <input type="submit" name="color" id="color">
+     
+    </form>
+  </body>
+</html>

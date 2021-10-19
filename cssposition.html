@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css position</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      #static {
+        background-color: rgb(56, 221, 166);
+        padding: 10px;
+        position: static;
+      }
+      #relative {
+        background-color: bisque;
+        padding: 10px;
+        position: relative;
+        /* top: 10px; */
+      }
+      #sticky {
+        background-color: cadetblue;
+        padding: 10px;
+        display: inline-block;
+        position: sticky;
+        text-align: center;
+        top: 20px;
+        z-index: 3;
+      }
+      #fixed {
+        background-color: coral;
+        padding: 10px;
+        position: fixed;
+        width: 200px;
+        right: 0;
+        bottom: 20px;
+      }
+      #top {
+        background-color: crimson;
+        padding: 10px;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      }
+      #inner {
+        background-color: darkcyan;
+        padding: 10px;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="static">this is static</div>
+    <div id="relative">this is relative</div>
+    <div id="sticky">this is sticky</div>
+    <div id="fixed">this is fixed</div>
+    <div id="top">
+      <div id="inner">this is inner div</div>
+    </div>
+  </body>
+</html>
